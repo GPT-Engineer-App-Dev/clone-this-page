@@ -23,17 +23,17 @@ const articles = [
 const Index = () => {
   return (
     <Container maxW="container.lg">
-      <Flex as="nav" bg="gray.100" p={4} mb={4} justifyContent="space-between" alignItems="center">
+      <Flex as="nav" bg="brand.900" p={4} mb={4} justifyContent="space-between" alignItems="center">
         <HStack spacing={4}>
-          <Link href="#" fontWeight="bold">new</Link>
-          <Link href="#">past</Link>
-          <Link href="#">comments</Link>
-          <Link href="#">ask</Link>
-          <Link href="#">show</Link>
-          <Link href="#">jobs</Link>
-          <Link href="#">submit</Link>
+          <Link href="#" fontWeight="bold" color="white">new</Link>
+          <Link href="#" color="white">past</Link>
+          <Link href="#" color="white">comments</Link>
+          <Link href="#" color="white">ask</Link>
+          <Link href="#" color="white">show</Link>
+          <Link href="#" color="white">jobs</Link>
+          <Link href="#" color="white">submit</Link>
         </HStack>
-        <Button colorScheme="teal" size="sm">login</Button>
+        <Button colorScheme="brand" size="sm">login</Button>
       </Flex>
       <VStack spacing={4} align="stretch">
         {articles.map((article, index) => (
